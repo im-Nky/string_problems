@@ -1,16 +1,15 @@
 //String ,substring,swapping and finding
+
 #include<iostream>
 #include<bits/stdc++.h>
 using namespace std;
 int main()
 {
-	// Substring
-	
+	// Substring	
 	string s1("I can do it");
 	cout<<s1.substr(11,4)<<endl; 	
 	
 	//swaping
-	
 	string s2("Apples");
 	string s3("Beans");
 	
@@ -25,18 +24,16 @@ int main()
 	
 	string s4("TFCC is Running");
 	cout<<s4.find("TFCC")<<endl;	//gives location of first occurence
-	
 	cout<<s4.rfind("TFCC")<<endl;	// gives location last occurence 
 	
 	//Concatenation: +
-	
 	string first;
 	cout<<"\nEnter First Name \n";
 	
 	//for entire line : getline(cin,variable);
 	getline(cin,first);
 	cout<<first.size();
-	
+
 	string last;
 	cout<<"\nEnter last Name \n";
 	cin>>last;
