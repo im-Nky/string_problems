@@ -42,4 +42,5 @@ int main()
 		cout<<s4.at(x);	
 	}
 	cout<<endl;
+	return 0; // Its optional in main in C
 }
