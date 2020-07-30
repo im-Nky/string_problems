@@ -26,4 +26,5 @@ int main()
 	{
 		cout<<"\n"<<*it<<endl;	
 	}
+	return 0;
 }
